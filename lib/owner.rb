@@ -10,7 +10,6 @@ class Owner
     @@owners << self
     @cats = []
     @dogs = []
-    # binding.pry
   end
 
   def self.all
@@ -31,14 +30,10 @@ class Owner
 
   def buy_cat(name)
     new_cat = Cat.new(name, self)
-    # self.cats << new_cat
-    # binding.pry
   end
 
   def buy_dog(name)
     new_dog = Dog.new(name, self)
-    # self.dogs << new_dog
-    # binding.pry
   end
 
   def walk_dogs
