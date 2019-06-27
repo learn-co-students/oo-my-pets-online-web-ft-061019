@@ -1,8 +1,8 @@
 require "pry"
 class Cat
   
-  attr_accessor :owner, :mood
-  attr_reader :name
+  attr_accessor :mood
+  attr_reader :name, :owner
   
   @@all = []
 
@@ -20,7 +20,4 @@ class Cat
     @@all
   end
 
-  def clear
-
-  end
 end
