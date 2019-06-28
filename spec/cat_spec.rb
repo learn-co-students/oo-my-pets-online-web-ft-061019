@@ -8,8 +8,8 @@ describe Cat do
   end
 
   after do 
-    Owner.all.clear
-    Cat.all.clear
+   Owner.all.clear
+   Cat.all.clear
   end
 
   it "can initialize a cat" do
